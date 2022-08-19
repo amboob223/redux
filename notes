@@ -1,0 +1,13 @@
+it matters when yiou call with parenthesos in js
+the render function changes the html based on the state
+dispatch is a function already included in the store redux object
+you display an event to the action object  the action must include a tupe
+once you make the the dispatch you go back to the reducedr and initlaizwe state with a [] and an action object
+do not change state in the reducer just make a copy with object.assign([],state)
+we got to call render inside the sgut taking the action 
+disptch event
+reducer take all the logic for diffeent events
+
+1st creat reducer 
+then store with reducer  then get state  to get state of data
+then use store to dispatch an event to change the state 
