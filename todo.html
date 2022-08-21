@@ -21,7 +21,7 @@
 <script>
 
     // the reducer is used in the store to handle events that are dispatch from the store
-    const reducer = Redux.combineReducers({
+    const reducer = Redux.combineReducers({ // the reducer handles action sthat get dispatchfrom the store
         todos: (state =[], action)=>{
             const newState = Object.assign([],state)
             if (action.type == 'add'){
@@ -59,7 +59,7 @@
     }
 
         
-        
+        //action one the we make loginc in the reducer styore is the object with state inn it
     document.getElementById('todo-submit').onclick = () =>{
         store.dispatch({
             type:'add',

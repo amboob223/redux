@@ -11,3 +11,14 @@ reducer take all the logic for diffeent events
 1st creat reducer 
 then store with reducer  then get state  to get state of data
 then use store to dispatch an event to change the state 
+
+// 
+git add . to add all the files
+then git commit - to save to git in my computer like a memory card
+then hook up to remote repository to push to github site
+git remote add orgin (origin here)
+git push orgin (branch)
+
+actions gets deispatch to the store
+
+when you click make a dispact from the store in the function
